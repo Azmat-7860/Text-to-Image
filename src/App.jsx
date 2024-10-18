@@ -55,7 +55,7 @@ const HuggingFaceImage = () => {
   return (
     <div className=" myContainer w-100 d-flex justify-content-center align-items-center">
       <div className="containerBody border border-primary-subtle p-3 rounded-2 text-center">
-        <h1>Text-to-Image Model</h1>
+        <h1>Text-to-Image AI</h1>
         <p>Enter a prompt to generate an image.</p>
         {/* <label htmlFor="input">Enter a prompt to generate an image.</label> */}
         <input
