@@ -46,7 +46,7 @@ const HuggingFaceImage = () => {
       const imageUrl = URL.createObjectURL(result);
       setImageUrl(imageUrl);
     } catch (error) {
-      setError(error.message);
+      setError("catch error",error.message);
     } finally {
       setLoading(false); // Stop loading once API call finishes
     }
