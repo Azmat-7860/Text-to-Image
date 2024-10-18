@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.myContainer {
+  background-color: #242424;
+  height: 100dvh;
+  color: bisque;
+}
+.containerBody {
+  max-width: 400px;
+}
+.containerBody h1 {
+  font-size: 35px;
+  /* color: red; */
+}
+
+.myInput {
+  /* display: block; */
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-bottom: blue;
+  border-radius: 0.25rem;
+}
+.myImage {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 300px;
+  /* margin: 0px; */
+}
+.imgBody {
+  position: relative;
+}
+.downloadBtn {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+@media (max-width: 576px) {
+  .containerBody h1 {
+    font-size: 25px;
+  }
+  .downloadBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
